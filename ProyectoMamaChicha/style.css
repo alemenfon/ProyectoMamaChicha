@@ -1,0 +1,433 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+  }
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.6),
+        rgba(0,0,0,0.6)),
+        url(images/portada.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display:flex;
+        align-items: center;
+
+    
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #FFFDFC ;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.menu .navbar ul li{
+    position: relative;
+    float:left;
+}
+
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFDFC;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #F0F465;
+
+
+}
+
+#menu{
+    display:none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-content h1{
+    text-align: center;
+  
+
+}
+
+.header-content h1{
+    font-size: 100px;
+    line-height: 80px;
+    color: #F0F465;
+    margin-bottom: 5px;
+    margin-top: 50px;
+    
+}
+
+.header-content p{
+    font-size: 15px;
+    line-height: 80px;
+    color: #FFFDFC;
+    padding:0 200px ;
+    margin-bottom: 50px;
+
+}
+
+.btn-1{
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 11px 30px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    color: white;
+    border: 2px solid #F0F465;
+    margin-left: 350px;
+
+  }
+  .btn-1:hover:hover {
+    background: #F0F465;
+    color: #fff;
+  }
+
+.conocenos{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto-encima{
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+}
+.sobre-mama{
+    background-image: linear-gradient(
+        rgba(0,0,0,0,20),
+        rgba(0,0,0,20)),
+        url(images/about-bg.jpg);
+        
+    background: url("images/about-bg.jpg");
+    
+}
+
+
+
+
+.sobre-mama{
+    display: flex;
+    margin-top: 10px;
+    background-image: linear-gradient(
+        rgba(0,0,0,0,20),
+        rgba(0,0,0,20)),
+        url(images/about-bg.jpg);
+        
+    background: url("images/about-bg.jpg");
+    background-size: cover;
+    position: relative;
+    padding: 25px;
+    height: 900px;
+    color:#FFFDFC
+    
+    
+    
+
+}
+.texto-sobre{
+    padding-left: 15px;
+    padding-right: 20px;
+    
+    padding-top: 50px;
+    
+}
+
+.texto-sobre p a{
+    color: #F0F465;
+}
+
+div.galeria {
+    padding-left: 15px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 470px;
+  }
+  
+  div.galeria:hover {
+    border: 2px solid  #F0F465;
+  }
+  
+  div.galeria img {
+    width: 100%;
+    height: auto;
+  }
+
+  
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+.contiene-productos{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 30px;
+    padding-left: 25px;
+
+}
+
+
+
+
+
+.campo{
+    margin-bottom: 20px;
+}
+
+
+  .btn_encargo:hover:hover {
+    background: #F0F465;
+    color: #ffffff;
+  }
+
+
+
+  .formu-fondo{
+    height: 430px;
+    width: 1500px;
+    background-image: linear-gradient(
+        rgba(0,0,0,0.4),
+        rgba(0,0,0,0.4)),
+        url(images/portada.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+    
+  }
+  .formu-contenido{
+    margin-top: 100pxpx;
+    margin-bottom: 10px;
+    align-items: center;
+    
+  }
+
+  .campo{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 15px;
+    color: #3f3f3f;
+    border: 2px solid  #F0F465;
+ 
+
+  }
+
+  .campo:hover {
+    border: 2px solid  #F0F465;
+  }
+
+  .btn_encargo{
+    font-weight: 600;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 50px;
+    transition: 0.3s;
+    line-height: 1;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    align-items: center;
+    border: 2px solid #F0F465;
+    
+
+  }
+
+
+  
+
+ .tabla-container{
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+ }
+
+ .tabla-precios{
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  text-align: center;
+  width: 700px;
+  
+
+ }
+ .tabla-container h3{
+  font-size: 30px;
+     
+    color: #3f3f3f;
+    margin: bottom 25px; ;
+ }
+ table{
+  text-align: left;
+  width: 700PX;
+ }
+
+ .productos{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+ }
+
+ .productos td, .productos th{
+  border:1px solid #DDDDDD;
+ }
+
+ .productos tr:nth-child(even){
+  background-color: #f2f2f2;
+ }
+
+ .productos tr:hover{
+  background-color: #F0F465;
+ }
+
+ .productos th{
+  padding: 12px 0;
+  text-align: center;
+ }
+ .section-title{
+  text-align: center;
+ }
+
+ .section-title{
+  font-size: 30px;
+     
+    color: #3f3f3f;
+    margin: bottom 25px; 
+}
+.texto-gal{
+  font-size: 30px;  
+  color: #3f3f3f;
+  margin: bottom 25px; 
+
+}
+
+.pie-pagina{
+  width: 100%;
+  background-color: #21262b;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+  width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #21262b;
+  margin-right: 10px;
+  background-color: #F0F465;
+  text-align: center;
+  transition: all 300ms ease;
+}
+
+
+.imagen-logo{
+  width: 20px;
+  height: 250px;
+  margin-left: 10px;
+}
+.figure{
+  margin-left: 10px;
+}
+
+.pie-pagina .grupo-2{
+  background-color: #F0F465;
+  padding: 15px 10px;
+  text-align: center;
+  color: #21262b;
+}
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
+}
+
+
+@media screen and (max-width:800px){
+  .pie-pagina .grupo-1{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap:30px;
+      padding: 35px 0px;
+  }
+}
